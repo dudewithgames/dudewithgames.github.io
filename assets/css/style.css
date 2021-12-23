@@ -10,16 +10,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #1d431d;
 }
 
 a {
-  color: #149ddd;
+  color: #14dd1e;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #5eee61;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #0e700a;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #2eafec;
+  background: #119d18;
   color: #fff;
 }
 .back-to-top.active {
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #123010;
   overflow-y: auto;
 }
 #header .profile img {
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #233121;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #21dd14;
   color: #fff;
   text-decoration: none;
 }
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #a9caa2;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -153,14 +153,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i, .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #668569;
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #34d023;
 }
 
 /* Mobile Navigation */
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #39dd14;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -261,7 +261,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #000000;
 }
 
 .section-title {
@@ -273,7 +273,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #c0d6c2;
 }
 .section-title h2::after {
   content: "";
@@ -281,7 +281,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #000000;
   bottom: 0;
   left: 0;
 }
@@ -295,7 +295,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #c0d6c2;
 }
 .about .content ul {
   list-style: none;
@@ -312,11 +312,17 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #39ba22;
   line-height: 0;
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about
+{
+  background: #000000;
+  color: #c0d6c2
 }
 
 /*--------------------------------------------------------------
@@ -380,21 +386,24 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #c0d6c2;
 }
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: #ccf8dd;
   height: 10px;
 }
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #1bb010;
+}
+.skills {
+  color: #c0d6c2;
 }
 
 /*--------------------------------------------------------------
@@ -405,12 +414,12 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #42ba20;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #1f972b;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -419,12 +428,12 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #3dcb34;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #3d4e3d;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -447,8 +456,13 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+  background: #2bff00;
+  border: 2px solid #85ff7e;
+}
+
+.resume{
+  background: #000000;
+  color: #c0d6c2;
 }
 
 /*--------------------------------------------------------------
@@ -462,7 +476,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #ffffff;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -479,7 +493,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #075610;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -517,15 +531,15 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgb(24, 138, 12);
   transition: 0.3s;
   width: 50%;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgb(64, 215, 34);
 }
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #47e91a;
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -537,6 +551,10 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+.portfolio {
+  background: #000000;
+  color: #c0d6c2;
 }
 
 /*--------------------------------------------------------------
@@ -632,12 +650,16 @@ section {
   color: #343a40;
 }
 .services .title a:hover {
-  color: #149ddd;
+  color: #50dd14;
 }
 .services .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+}
+.services {
+  background: #000000;
+  color: #c0d6c2;
 }
 
 /*--------------------------------------------------------------
@@ -907,7 +929,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #0e2442;
+  color: #1c420e;
   content: "/";
 }
 @media (max-width: 768px) {
@@ -934,7 +956,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #081404;
 }
 #footer .copyright {
   text-align: center;
